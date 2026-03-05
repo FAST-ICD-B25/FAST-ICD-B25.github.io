@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modulo Sampling ADC | Pakistan Semiconductor Summit '26</title>
+  <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+  <div class="container nav-container">
+    <a href="../index.html" class="logo">Pakistan Semiconductor Summit '26</a>
+    <ul class="nav-links">
+      <li><a href="../index.html#home" class="nav-link">Home</a></li>
+      <li><a href="../index.html#projects" class="nav-link">Projects</a></li>
+      <li><a href="../index.html#faculty" class="nav-link">Faculty</a></li>
+      <li><a href="../index.html#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Hero / Title Section -->
+<section class="project-hero">
+  <div class="container">
+    <h1>Design of an Integrated Modulo Sampling ADC</h1>
+    <p class="subtitle">For SRDR and Passive Radar Applications</p>
+  </div>
+</section>
+
+<!-- Abstract / Overview -->
+<section class="project-overview">
+  <div class="container">
+    <h2>Abstract</h2>
+    <p>
+      Analog-to-digital converters (ADCs) are essential for converting real-world analog signals into digital data.  
+      A critical parameter is the dynamic range (DR), which determines the ratio between the largest and smallest signals the ADC can resolve.  
+      Signals exceeding the DR cause clipping and degrade the quality of digitized signals.  
+      This project implements a **modulo-based folding architecture** to improve ADC dynamic range, enabling high-fidelity digitization even for large amplitude variations, useful for passive radar, software-defined radios, and wideband multi-standard receivers.
+    </p>
+  </div>
+</section>
+
+<!-- Introduction -->
+<section class="project-introduction">
+  <div class="container">
+    <h2>Introduction</h2>
+    <p>
+      The proposed **Modulo Sampling ADC** folds signals exceeding the ADC's dynamic range back into the valid range before sampling.  
+      Using a feedback mechanism, a trigger activates a voltage generator to correct the input signal dynamically, avoiding saturation.  
+      This allows the ADC to digitize high-dynamic-range signals as low-dynamic-range signals, preserving fidelity and enabling robust operation in wideband receivers and passive radar systems.
+    </p>
+  </div>
+</section>
+
+<!-- Methodology -->
+<section class="project-methodology">
+  <div class="container">
+    <h2>Methodology</h2>
+    <ul>
+      <li>Design an integrated modulo ADC with folding architecture.</li>
+      <li>Implement trigger circuitry to detect signals beyond ADC dynamic range.</li>
+      <li>Use direct voltage feedback to bring signals back within range.</li>
+      <li>Sample the folded low-dynamic-range signal using standard ADC cores.</li>
+      <li>Validate design through simulation and prototype hardware evaluation.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Results / Achievements -->
+<section class="project-results">
+  <div class="container">
+    <h2>Results & Benefits</h2>
+    <ul>
+      <li>Improved ADC dynamic range without increasing hardware complexity.</li>
+      <li>Prevention of signal clipping for high-amplitude analog inputs.</li>
+      <li>Applicability in wideband passive radar and SRDR systems.</li>
+      <li>High-fidelity digitization for software-defined radio and biomedical instrumentation.</li>
+      <li>Scalable architecture for integration into next-generation ADC designs.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- References -->
+<section class="project-references">
+  <div class="container">
+    <h2>References</h2>
+    <ol>
+      <li>O. Ordentlich, G. Tabak, P. K. Hanumolu, A. C. Singer, G. W. Wornell, "A modulo-based architecture for analog-to-digital conversion," IEEE J. Sel. Topics Signal Process., vol. 12, no. 5, pp. 825–840, 2018.</li>
+      <li>Zhu, J., Ma, J., Liu, Z., Qu, F., Zhu, Z., Zhang, Q., "A Modulo Sampling Hardware Prototype and Reconstruction Algorithms Evaluation," IEEE Trans. Instrumentation and Measurement, 2025.</li>
+      <li>A. Weiss, E. Huang, O. Ordentlich, G. W. Wornell, "Blind modulo analog-to-digital conversion," IEEE Trans. Signal Process., vol. 70, pp. 4586–4601, 2022.</li>
+      <li>S. Mulleti, Y. C. Eldar, "Modulo sampling of FRI signals," IEEE Access, vol. 12, pp. 60369–60384, 2024.</li>
+      <li>S. Mulleti, E. Reznitskiy, S. Savariego, M. Namer, N. Glazer, Y. C. Eldar, "A hardware prototype of wideband high-dynamic range ADC," IET Circuits, Devices Syst., vol. 17, no. 4, pp. 181–192, 2023.</li>
+    </ol>
+  </div>
+</section>
+
+<!-- Team -->
+<section class="project-team">
+  <div class="container">
+    <h2>Team</h2>
+    <h3>Project Members</h3>
+    <ul class="team-members">
+      <li>Wasif Bhai</li>
+      <li>Zohaib</li>
+      <li>Zuhair</li>
+      <li>Callum</li>
+      <li>Zaki</li>
+      <li>Ahsan</li>
+      <li>Junaid</li>
+      <li>Ajmal</li>
+      <li>Muazam Iftekhar</li>
+      <li>Faisal Shakar</li>
+      <li>Kinza</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Back Button -->
+<section class="project-back">
+  <div class="container">
+    <a href="../index.html#projects" class="btn btn-primary">Back to Projects</a>
+  </div>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CNN Multiplier Architecture | Pakistan Semiconductor Summit '26</title>
+  <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+  <div class="container nav-container">
+    <a href="../index.html" class="logo">Pakistan Semiconductor Summit '26</a>
+    <ul class="nav-links">
+      <li><a href="../index.html#home" class="nav-link">Home</a></li>
+      <li><a href="../index.html#projects" class="nav-link">Projects</a></li>
+      <li><a href="../index.html#faculty" class="nav-link">Faculty</a></li>
+      <li><a href="../index.html#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Hero / Title Section -->
+<section class="project-hero">
+  <div class="container">
+    <h1>Efficient Multiplier Architectures for CNN-Based Image Processor</h1>
+    <p class="subtitle">Focusing on Modified Booth Encoding (MBE) and 4-to-2 compressor-based hardware acceleration for high-performance AI implementations.</p>
+  </div>
+</section>
+
+<!-- Abstract / Overview -->
+<section class="project-overview">
+  <div class="container">
+    <h2>Abstract</h2>
+    <p>
+      The Convolutional Neural Network (CNN) achieves high accuracy and is widely used in image-related applications.  
+      Recent evolution of CNN-based AI applications has made their hardware implementation a challenging task. Efficient CNN accelerator architectures require optimization in processing elements (PEs), especially the multiplier and adder units.  
+      This research presents strategies to optimize the multipliers and typical adder trees, improving CNN system performance, reducing hardware resource usage, and enhancing power efficiency.
+    </p>
+  </div>
+</section>
+
+<!-- Introduction -->
+<section class="project-introduction">
+  <div class="container">
+    <h2>Introduction</h2>
+    <p>
+      Hardware customization for CNN accelerators remains a challenging problem due to the bulky nature of MAC components and delays in conventional adder trees.  
+      The proposed work designs a Modified Booth Encoding (MBE) multiplier to replace conventional MAC units on FPGA, later intended for ASIC implementation.  
+      4-to-2 compressors are used instead of typical adder trees to reduce critical path delay, significantly lowering hardware consumption while maintaining computational throughput.
+    </p>
+  </div>
+</section>
+
+<!-- Methodology -->
+<section class="project-methodology">
+  <div class="container">
+    <h2>Methodology</h2>
+    <ul>
+      <li>Design of Modified Booth Encoding (MBE) multipliers to efficiently generate partial products.</li>
+      <li>Replacement of conventional adder trees with 4-to-2 compressor-based summation to reduce delays.</li>
+      <li>Simulation and verification of RTL for FPGA deployment.</li>
+      <li>Evaluation of area, power, and performance against state-of-the-art implementations.</li>
+      <li>Integration into CNN accelerator hardware for image processing applications.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Results / Achievements -->
+<section class="project-results">
+  <div class="container">
+    <h2>Results & Benefits</h2>
+    <ul>
+      <li>Significant reduction in hardware resource consumption.</li>
+      <li>Faster execution of convolution operations in the PE unit.</li>
+      <li>Power-efficient multiplier architecture suitable for AI image processors.</li>
+      <li>Flexible for FPGA prototyping and later ASIC deployment.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- References -->
+<section class="project-references">
+  <div class="container">
+    <h2>References</h2>
+    <ol>
+      <li>S. Dargan, M. Kumar, M. R. Ayyagari, and G. Kumar, “A Survey of Deep Learning and Its Applications: A New Paradigm to Machine Learning,” Arch. Comput. Methods Eng., vol. 27, no. 4, pp. 1071–1092, 2020, doi: 10.1007/s11831-019-09344-w.</li>
+      <li>W. Xie, C. Zhang, Y. Zhang, C. Hu, H. Jiang, and Z. Wang, “An Energy-Efficient FPGA-Based Embedded System for CNN Application,” 2018 IEEE Int. Conf. Electron Devices Solid State Circuits, EDSSC 2018, Oct. 2018, doi: 10.1109/EDSSC.2018.8487057.</li>
+      <li>F. U. D. Farrukh, T. Xie, C. Zhang, and Z. Wang, “Optimization for Efficient Hardware Implementation of CNN on FPGA,” Proc. 2018 IEEE Int. Conf. Integr. Circuits, Technol. Appl. ICTA 2018, pp. 88–89, Jul. 2018, doi: 10.1109/CICTA.2018.8706067.</li>
+      <li>T. Kowsalya, “A novel cognitive Wallace compressor based multi operand adders in CNN architecture for FPGA,” J. Ambient Intell. Humaniz. Comput., vol. 12, no. 7, pp. 7263–7271, Aug. 2020, doi: 10.1007/s12652-020-02402-3.</li>
+      <li>F. U. D. Farrukh et al., “Power Efficient Tiny Yolo CNN using Reduced Hardware Resources based on Booth Multiplier and WALLACE Tree Adders,” IEEE Open J. Circuits Syst., pp. 1–1, Jul. 2020, doi: 10.1109/ojcas.2020.3007334.</li>
+      <li>Y. E. Kim, J. O. Yoon, K. J. Cho, J. G. Chung, S. I. Cho, and S. S. Choi, “Efficient design of modified Booth multipliers for predetermined coefficients,” Proc. - IEEE Int. Symp. Circuits Syst., pp. 2717–2720, 2006, doi: 10.1109/ISCAS.2006.1693185.</li>
+    </ol>
+  </div>
+</section>
+
+<!-- Team -->
+<section class="project-team">
+  <div class="container">
+    <h2>Team</h2>
+    <h3>Project Members</h3>
+    <ul class="team-members">
+      <li>Osama Anees Mirza</li>
+      <li>Muhammad Mirza (Embedded Edge Academy)</li>
+      <li>Salman Qazi</li>
+      <li>Eeman (with a Double E)</li>
+      <li>Kousar Gul</li>
+      <li>Muhammad Awab Younas</li>
+      <li>Muhammad Ahmad</li>
+      <li>Fajar Waseem</li>
+      <li>Sana Nazir</li>
+      <li>Umm e Kulsoom Hospital</li>
+    </ul>
+
+    <h3>Supervisors</h3>
+    <ul class="team-supervisors">
+      <li>Sir Hasan Saif</li>
+      <li>Sir Rashid Ramzan</li>
+      <li>Sir Usman</li>
+      <li>Sir Usman The Second</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Back Button -->
+<section class="project-back">
+  <div class="container">
+    <a href="../index.html#projects" class="btn btn-primary">Back to Projects</a>
+  </div>
+</section>
+
+</body>
+</html>

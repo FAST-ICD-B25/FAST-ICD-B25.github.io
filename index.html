@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pakistan Semiconductor Summit '26</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+  <div class="container nav-container">
+    <div class="logo">
+      <svg class="logo-3d" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <!-- Keep your cube SVG here as is -->
+      </svg>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#home" class="nav-link">Home</a></li>
+      <li><a href="#about" class="nav-link">Summit</a></li>
+      <li><a href="#projects" class="nav-link">Tapeout Projects</a></li>
+      <li><a href="#faculty" class="nav-link">Faculty</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <div class="theme-toggle" id="themeToggle">
+      <!-- Keep sun/moon SVG icons -->
+    </div>
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+  <canvas id="hero-canvas"></canvas>
+  <div class="container hero-container">
+    <div class="hero-content">
+      <h1 class="hero-title">Pakistan Semiconductor Summit '26</h1>
+      <p class="hero-subtitle">Tapeout Projects – Spring 2026</p>
+      <p class="hero-description">
+        Hosted by the IC Design Lab at FAST-NU Islamabad. Showcasing graduate-level tapeout projects in digital, mixed-signal, and advanced semiconductor research.
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">Explore Projects</a>
+        <a href="#about" class="btn btn-secondary">About the Summit</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About/Summit Section -->
+<section id="about" class="about">
+  <div class="container">
+    <h2 class="section-title">About the Summit</h2>
+    <div class="about-content">
+      <div class="about-text">
+        <p>
+          The Pakistan Semiconductor Summit 2026 presents tapeout-ready ASIC design projects developed by graduate students at the IC Design Lab.  
+          Projects span digital VLSI architectures, mixed-signal circuits, and cutting-edge semiconductor research targeting real silicon fabrication.
+        </p>
+        <p>
+          Each project is mentored by faculty experts, leveraging professional EDA tools such as Cadence Virtuoso, Innovus, and Synopsys for synthesis, verification, and physical design.  
+          The summit emphasizes innovation, collaboration, and preparing chips ready for tapeout.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="projects">
+  <div class="container">
+    <h2 class="section-title">Tapeout Projects – Spring 2026</h2>
+    <div class="projects-grid">
+
+      <div class="project-card interactive-card">
+        <h3>Efficient CNN Multiplier Architecture</h3>
+        <p>High-performance multiplier architectures for CNN accelerators using Modified Booth Encoding and compressor trees.</p>
+        <a href="projects/cnn-multiplier.html" class="btn btn-secondary">View Project</a>
+      </div>
+
+      <div class="project-card interactive-card">
+        <h3>4-bit AC Nano Processor</h3>
+        <p>Ultra-low power nano-processor architecture designed for biomedical implants and smart dust systems.</p>
+        <a href="projects/nano-processor.html" class="btn btn-secondary">View Project</a>
+      </div>
+
+      <div class="project-card interactive-card">
+        <h3>Modulo Sampling ADC</h3>
+        <p>High dynamic range modulo ADC architecture for next-generation signal acquisition and processing.</p>
+        <a href="projects/modulo-adc.html" class="btn btn-secondary">View Project</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Faculty Section -->
+<section id="faculty" class="skills">
+  <div class="container">
+    <h2 class="section-title">Faculty Supervisors</h2>
+    <div class="skills-grid">
+
+      <div class="skill-category interactive-card">
+        <h3>Prof. Dr. Rashad Ramzan</h3>
+        <p>IC Design Lab Director</p>
+      </div>
+
+      <div class="skill-category interactive-card">
+        <h3>Dr. Hassan Saif</h3>
+        <p>VLSI & Semiconductor Systems</p>
+      </div>
+
+      <div class="skill-category interactive-card">
+        <h3>Dr. Khurram Javed</h3>
+        <p>Integrated Circuit Design</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact">
+  <div class="container">
+    <h2 class="section-title">Contact</h2>
+    <div class="contact-content">
+      <p>For queries or collaboration opportunities, reach out to the IC Design Lab:</p>
+      <div class="contact-info">
+        <a href="mailto:iclab@fastnu.edu.pk" class="contact-item interactive-card">
+          <span class="icon">✉</span> iclab@fastnu.edu.pk
+        </a>
+        <div class="contact-item interactive-card">
+          <span class="icon">📍</span> FAST-NU, Islamabad, Pakistan
+        </div>
+      </div>
+      <div class="social-links">
+        <a href="https://linkedin.com" class="btn btn-secondary" target="_blank">LinkedIn</a>
+        <a href="https://github.com" class="btn btn-secondary" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <p>&copy; 2026 Pakistan Semiconductor Summit. All Rights Reserved.</p>
+    <p>IC Design Lab, FAST-NU Islamabad</p>
+  </div>
+</footer>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
