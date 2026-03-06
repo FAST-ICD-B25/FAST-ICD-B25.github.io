@@ -68,6 +68,10 @@ body {
   position: sticky;
   top: 0;
   z-index: 100;
+  display: flex;          /* make navbar items align easily */
+  align-items: center;    /* vertically centers logo + links */
+  padding: 0 20px;        /* horizontal padding */
+  height: 80px;           /* optional fixed navbar height */
   transition: all 0.3s ease;
 }
 
@@ -80,6 +84,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 0;
+  width: 100%;
 }
 
 .logo {
@@ -93,8 +98,8 @@ body {
 }
 
 .logo-3d {
-  width: 50px;
-  height: 50px;
+  width: 130px;
+  height: 130px;
   display: block;
   animation: rotateLogo 6s infinite linear;
   filter: drop-shadow(0 0 8px rgba(206, 224, 86, 0.6));
