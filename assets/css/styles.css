@@ -2,36 +2,37 @@
 
 /* ==================== CSS VARIABLES (NEW THEME PALETTE) ==================== */
 :root {
-  --bg-main: #040b11; /* Deepest dark background */
-  --bg-surface: #2d322c; /* Card backgrounds / Sections */
-  --accent-primary: #cee056; /* Primary accent / Buttons / Hover (Lime) */
-  --accent-secondary: #ebc61d; /* Secondary accent / Gradients (Gold) */
-  --border-main: #2d322c; /* Borders */
+  --bg-main: #050a14;
+  --bg-surface: #0f172a;
 
-  --text-main: #f3f3f2; /* Bright text for dark bg (Off-white) */
-  --text-muted: #a4aaa3; /* Muted text for descriptions */
-  --pixel-font: "Pixel Operator", "Press Start 2P", monospace;
+  --accent-primary: #00d4ff;
+  --accent-secondary: #6366f1;
 
-  /* Shadows and Glows using accent-primary RGB (206, 224, 86) */
-  --shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
-  --glow: 0 0 20px rgba(206, 224, 86, 0.4);
-  --glow-strong: 0 0 30px rgba(206, 224, 86, 0.8);
+  --border-main: #1e293b;
+
+  --text-main: #f1f5f9;
+  --text-muted: #94a3b8;
+
+  --shadow: 0 10px 30px rgba(0,0,0,0.9);
+  --glow: 0 0 20px rgba(0,212,255,0.4);
+  --glow-strong: 0 0 35px rgba(0,212,255,0.8);
 }
-
-/* ==================== LIGHT THEME PALETTE ==================== */
+/* ==================== LIGHT MODE - SILICON VALLEY ==================== */
 :root.light-mode {
-  --bg-main: #f3f3f2; /* Light background */
-  --bg-surface: #ffffff; /* Light card backgrounds */
-  --accent-primary: #cee056; /* Primary accent */
-  --accent-secondary: #ebc61d; /* Secondary accent */
-  --border-main: #d1d6cc; /* Light borders */
+  --bg-main: #f8fafc;
+  --bg-surface: #ffffff;
 
-  --text-main: #040b11; /* Dark text for light bg */
-  --text-muted: #5e665d; /* Muted text for descriptions */
+  --accent-primary: #00d4ff;
+  --accent-secondary: #6366f1;
 
-  --shadow: 0 10px 30px rgba(206, 224, 86, 0.15);
-  --glow: 0 0 20px rgba(206, 224, 86, 0.3);
-  --glow-strong: 0 0 30px rgba(206, 224, 86, 0.5);
+  --border-main: #e5e7eb;
+
+  --text-main: #0f172a;
+  --text-muted: #64748b;
+
+  --shadow: 0 10px 30px rgba(0,0,0,0.08);
+  --glow: 0 0 15px rgba(0,212,255,0.25);
+  --glow-strong: 0 0 25px rgba(0,212,255,0.4);
 }
 
 /* ==================== GLOBAL STYLES ==================== */
