@@ -502,7 +502,7 @@ if (batchGrid) {
     memberCard.className = "batch-member interactive-card";
     memberCard.innerHTML = `
       <img
-        src="assets/images/batch25/${batchMembers[i - 1]}.png"
+        src="../../assets/images/batch25/${batchMembers[i - 1]}.png"
         alt="${batchMembers[i - 1]}"
         class="member-photo"
       />
